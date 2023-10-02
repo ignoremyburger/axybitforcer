@@ -1,2 +1,4 @@
 bit
-bitcoinaddress
+mnemonic
+bip32utils
+requests

@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 Step 3: Run the Script and follow instructions
 ```
-python3 gen.py
+python3 main.py
 ```
 
 <h2>Important note</h2>
