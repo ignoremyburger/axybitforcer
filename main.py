@@ -7,6 +7,7 @@ import os
 
 DISCORD_WEBHOOK_URL = ""  
 DEFAULT_ADDRESS = ""
+COUNT = 0
 
 def send_to_discord(payload):
     requests.post(
@@ -44,6 +45,11 @@ def send_to_discord(payload):
         )
 
 def check_balance(private_key):
+    global COUNT
+    COUNT += 1
+    if COUNT == 20:
+        COUNT = 0
+        os.system('cls' if os.name == "nt" else "clear")
     wallet = Key(private_key)
     balance = wallet.get_balance('usd')
     print(f"[!] > Checking {wallet.address}")
@@ -74,6 +80,7 @@ def main():
     os.system('cls' if os.name == "nt" else "clear")
     print("[!] > AxyBitforcer is running. Keep this window open.")
     print("[!] > Notifications will be sent to your Discord.")
+    print("[!] > To avoid spamming your console, for every 20 lines created the screen will be cleared once.")
     try:
         while True:
             mnemon = Mnemonic("english")
