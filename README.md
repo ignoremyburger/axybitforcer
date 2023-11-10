@@ -1,32 +1,18 @@
 # AxyBitforcer
 
-<h2>What is this?</h2>
-AxyBitforcer is a Bitcoin Wallet Bruteforcer. A tool that keeps generating Bitcoin Wallets until a miracle happens where it guessed the same Private Key as an existing Bitcoin wallet and send the funds to your account.<br/>
-This is in no way profitable, mining Bitcoin is more profitable but why not right?
+Due to financial reasons from this moment onwards, AxyBitforcer will cost 10$ if you wish to get a copy for yourself.
 
-<h2>How to start</h2>
-Step 1: Clone the Git repo
-```
-git clone https://github.com/buibaohoang06/axybitforcer
-```
+# Do I have to pay 10$ monthly?
+No, it's a one-time payment.
 
-Step 2: Install dependencies
-```
-pip install -r requirements.txt
-```
+# How can I pay? How does it work?
+I accept Bitcoin, Ethereum, and USDT. Just shoot me a message on my telegram @its_a_harvey. After confirming your payment I will send you the compiled version of the software with a full VirusTotal scan to ensure that it is not malicious. I don't have malicious intents, just trying to make a buck.
 
-Step 3: Run the Script and follow instructions
-```
-python3 main.py
-```
+# What makes your software stands out?
+Instead of constantly creating new BTC wallets using Mnemonic until one takes the bait, AxyBitforcer generates hex private keys instead. And it is faster.
 
-<h2>Important note</h2>
-<ul>
-    <li>This is purely based on luck, when you have nothing else to do on your computer maybe give this script a try.</li>
-    <li>Chances of getting the same Bitcoin Private Key is 10 to the power of -77.</li>
-    <li>Just to repeat, this is based purely on luck. There are no algorithms or special mechanisms. This is just based on luck.</li>
-</ul>
+# Why should I pay for this?
+Idk I'm just trying to make a buck. But 10$ for a piece of software that works instead of the scammy stuff on instagram sure looks worth it.
 
-<h3>In case you actually (somehow the universe aligned just for you) found some Bitcoin this way.</h3>
-Can I please have some? 🥺
-bc1qqvtv0cl6hxg2ce52t7umycqj5kj0kxksudhxz0
+# Do I get refunds?
+No
