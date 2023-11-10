@@ -1,4 +1,0 @@
-bit
-mnemonic
-bip32utils
-requests
