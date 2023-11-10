@@ -16,3 +16,6 @@ Idk I'm just trying to make a buck. But 10$ for a piece of software that works i
 
 # Do I get refunds?
 No
+
+# Can't I just clone the previous commit?
+Yea of course you can, I just won't release updates for it. 
