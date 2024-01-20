@@ -1,5 +1,7 @@
 # AxyBitforcer
 
+# Notice: New program (HashHound) - https://github.com/ignoremyburger/hashhound
+
 # How much is it?
 There is no set price, send whatever you want to send. I will donate all the profits from this to a local orphanage so they can have a nice Christmas.
 
